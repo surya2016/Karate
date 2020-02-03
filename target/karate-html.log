@@ -1,0 +1,91 @@
+17:50:05.349 karate.env system property was: null 
+17:50:05.721 request:
+1 > GET http://localhost:8080/api/json?pretty=true
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Basic cm9vdDpyb290
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_242)
+
+17:50:05.838 response time in milliseconds: 115
+1 < 200
+1 < Content-Type: application/json;charset=utf-8
+1 < Date: Fri, 31 Jan 2020 12:20:05 GMT
+1 < Server: Jetty(9.4.z-SNAPSHOT)
+1 < X-Content-Type-Options: nosniff
+1 < X-Jenkins: 2.190.2
+1 < X-Jenkins-Session: 464689ef
+{
+  "_class" : "hudson.model.Hudson",
+  "assignedLabels" : [
+    {
+      "name" : "master"
+    }
+  ],
+  "mode" : "NORMAL",
+  "nodeDescription" : "the master Jenkins node",
+  "nodeName" : "",
+  "numExecutors" : 2,
+  "description" : null,
+  "jobs" : [
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject",
+      "name" : "TestPrd1",
+      "url" : "http://localhost:8080/job/TestPrd1/"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "TestPrdNov",
+      "url" : "http://localhost:8080/job/TestPrdNov/",
+      "color" : "notbuilt"
+    }
+  ],
+  "overallLoad" : {
+    
+  },
+  "primaryView" : {
+    "_class" : "hudson.model.AllView",
+    "name" : "all",
+    "url" : "http://localhost:8080/"
+  },
+  "quietingDown" : false,
+  "slaveAgentPort" : -1,
+  "unlabeledLoad" : {
+    "_class" : "jenkins.model.UnlabeledLoadStatistics"
+  },
+  "useCrumbs" : true,
+  "useSecurity" : true,
+  "views" : [
+    {
+      "_class" : "hudson.model.AllView",
+      "name" : "all",
+      "url" : "http://localhost:8080/"
+    }
+  ]
+}
+
+                                                                                                                                                                                                                      
+
+13:03:59.044 status code was: 403, expected: 200, response time: 19, url: http://localhost:8080/api/json?pretty=true, response: <html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta content="1;url=/login?from=%2Fapi%2Fjson%3Fpretty%3Dtrue" http-equiv="refresh">
+<script>window.location.replace('/login?from=%2Fapi%2Fjson%3Fpretty%3Dtrue');</script>
+</head>
+<body style="background-color:white; color:white;">
+
+
+Authentication required
+<!--
+You are authenticated as: anonymous
+Groups that you are in:
+  
+Permission you need to have (but didn't): hudson.model.Hudson.Read
+ ... which is implied by: hudson.security.Permission.GenericRead
+ ... which is implied by: hudson.model.Hudson.Administer
+-->
+
+</body>
+</html>
+

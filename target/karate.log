@@ -1,0 +1,676 @@
+13:03:57.433 [main] INFO  com.intuit.karate.junit4.Karate - Karate version: 0.8.0
+13:03:58.623 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:03:58.990 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/api/json?pretty=true
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_242)
+
+13:03:59.011 [main] DEBUG com.intuit.karate - response time in milliseconds: 19
+1 < 403
+1 < Content-Length: 845
+1 < Content-Type: text/html;charset=utf-8
+1 < Date: Fri, 31 Jan 2020 07:33:59 GMT
+1 < Expires: Thu, 01 Jan 1970 00:00:00 GMT
+1 < Server: Jetty(9.4.z-SNAPSHOT)
+1 < Set-Cookie: JSESSIONID.cc891341=node0vb1sqcxgk1ba103he04g6mi0z2.node0;Path=/;HttpOnly
+1 < X-Content-Type-Options: nosniff
+1 < X-Hudson: 1.395
+1 < X-Jenkins: 2.190.2
+1 < X-Jenkins-Session: 464689ef
+1 < X-Permission-Implied-By: [hudson.security.Permission.GenericRead, hudson.model.Hudson.Administer]
+1 < X-Required-Permission: hudson.model.Hudson.Read
+1 < X-You-Are-Authenticated-As: anonymous
+1 < X-You-Are-In-Group-Disabled: JENKINS-39402: use -Dhudson.security.AccessDeniedException2.REPORT_GROUP_HEADERS=true or use /whoAmI to diagnose
+<html><head><meta http-equiv='refresh' content='1;url=/login?from=%2Fapi%2Fjson%3Fpretty%3Dtrue'/><script>window.location.replace('/login?from=%2Fapi%2Fjson%3Fpretty%3Dtrue');</script></head><body style='background-color:white; color:white;'>
+
+
+Authentication required
+<!--
+You are authenticated as: anonymous
+Groups that you are in:
+  
+Permission you need to have (but didn't): hudson.model.Hudson.Read
+ ... which is implied by: hudson.security.Permission.GenericRead
+ ... which is implied by: hudson.model.Hudson.Administer
+-->
+
+</body></html>                                                                                                                                                                                                                                                                                                            
+
+13:03:59.044 [main] ERROR com.intuit.karate - status code was: 403, expected: 200, response time: 19, url: http://localhost:8080/api/json?pretty=true, response: <html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta content="1;url=/login?from=%2Fapi%2Fjson%3Fpretty%3Dtrue" http-equiv="refresh">
+<script>window.location.replace('/login?from=%2Fapi%2Fjson%3Fpretty%3Dtrue');</script>
+</head>
+<body style="background-color:white; color:white;">
+
+
+Authentication required
+<!--
+You are authenticated as: anonymous
+Groups that you are in:
+  
+Permission you need to have (but didn't): hudson.model.Hudson.Read
+ ... which is implied by: hudson.security.Permission.GenericRead
+ ... which is implied by: hudson.model.Hudson.Administer
+-->
+
+</body>
+</html>
+
+15:26:27.170 [main] INFO  com.intuit.karate.junit4.Karate - Karate version: 0.8.0
+15:26:28.017 [main] WARN  com.intuit.karate - no runnable scenarios found: jenkins.feature, env: null, dir: /home/suryakhanna/eclipse-workspace/Karate/target/test-classes/examples/jenkins
+15:28:15.972 [main] INFO  com.intuit.karate.junit4.Karate - Karate version: 0.8.0
+15:28:16.949 [main] WARN  com.intuit.karate - no runnable scenarios found: jenkins.feature, env: null, dir: /home/suryakhanna/eclipse-workspace/Karate/target/test-classes/examples/jenkins
+15:29:40.599 [main] INFO  com.intuit.karate.junit4.Karate - Karate version: 0.8.0
+15:29:41.389 [main] WARN  com.intuit.karate - no runnable scenarios found: jenkins.feature, env: null, dir: /home/suryakhanna/eclipse-workspace/Karate/target/test-classes/examples/jenkins
+15:30:25.632 [main] INFO  com.intuit.karate.junit4.Karate - Karate version: 0.8.0
+15:30:26.466 [main] WARN  com.intuit.karate - no runnable scenarios found: jenkins.feature, env: null, dir: /home/suryakhanna/eclipse-workspace/Karate/target/test-classes/examples/jenkins
+15:30:37.117 [main] INFO  com.intuit.karate.junit4.Karate - Karate version: 0.8.0
+15:30:37.899 [main] WARN  com.intuit.karate - no runnable scenarios found: jenkins.feature, env: null, dir: /home/suryakhanna/eclipse-workspace/Karate/target/test-classes/examples/jenkins
+15:32:21.768 [main] INFO  com.intuit.karate.junit4.Karate - Karate version: 0.8.0
+15:32:22.655 [main] WARN  com.intuit.karate - no runnable scenarios found: jenkins.feature, env: null, dir: /home/suryakhanna/eclipse-workspace/Karate/target/test-classes/examples/jenkins
+15:34:06.802 [main] INFO  com.intuit.karate.junit4.Karate - Karate version: 0.8.0
+15:34:07.596 [main] WARN  com.intuit.karate - no runnable scenarios found: jenkins.feature, env: null, dir: /home/suryakhanna/eclipse-workspace/Karate/target/test-classes/examples/jenkins
+15:35:12.210 [main] INFO  com.intuit.karate.junit4.Karate - Karate version: 0.8.0
+15:35:13.106 [main] WARN  com.intuit.karate - no runnable scenarios found: jenkins.feature, env: null, dir: /home/suryakhanna/eclipse-workspace/Karate/target/test-classes/examples/jenkins
+15:36:33.692 [main] INFO  com.intuit.karate.junit4.Karate - Karate version: 0.8.0
+15:36:34.524 [main] WARN  com.intuit.karate - no runnable scenarios found: jenkins.feature, env: null, dir: /home/suryakhanna/eclipse-workspace/Karate/target/test-classes/examples/jenkins
+15:41:06.212 [main] INFO  com.intuit.karate.junit4.Karate - Karate version: 0.8.0
+15:41:07.376 [main] WARN  com.intuit.karate - no runnable scenarios found: jenkins.feature, env: null, dir: /home/suryakhanna/eclipse-workspace/Karate/target/test-classes/examples/jenkins
+15:41:45.986 [main] INFO  com.intuit.karate.junit4.Karate - Karate version: 0.8.0
+15:41:47.410 [main] WARN  com.intuit.karate - no runnable scenarios found: jenkins.feature, env: null, dir: /home/suryakhanna/eclipse-workspace/Karate/target/test-classes/examples/jenkins
+15:42:51.437 [main] INFO  com.intuit.karate.junit4.Karate - Karate version: 0.8.0
+15:42:52.216 [main] WARN  com.intuit.karate - no runnable scenarios found: jenkins.feature, env: null, dir: /home/suryakhanna/eclipse-workspace/Karate/target/test-classes/examples/jenkins
+15:42:58.257 [main] INFO  com.intuit.karate.junit4.Karate - Karate version: 0.8.0
+15:42:59.161 [main] WARN  com.intuit.karate - no runnable scenarios found: jenkins.feature, env: null, dir: /home/suryakhanna/eclipse-workspace/Karate/target/test-classes/examples/jenkins
+15:43:43.274 [main] INFO  com.intuit.karate.junit4.Karate - Karate version: 0.8.0
+15:43:44.060 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:43:44.071 [main] ERROR com.intuit.karate - syntax error: 'header header Authorization = call read('basic-auth.js') { username: 'root', password: 'root' }', feature: /home/suryakhanna/eclipse-workspace/Karate/target/test-classes/examples/jenkins/jenkins.feature, line: 25
+15:44:13.610 [main] INFO  com.intuit.karate.junit4.Karate - Karate version: 0.8.0
+15:44:14.535 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:44:14.926 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/api/json?pretty=true
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Basic cm9vdDpyb290
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_242)
+
+15:44:15.034 [main] DEBUG com.intuit.karate - response time in milliseconds: 107
+1 < 200
+1 < Content-Type: application/json;charset=utf-8
+1 < Date: Fri, 31 Jan 2020 10:14:14 GMT
+1 < Server: Jetty(9.4.z-SNAPSHOT)
+1 < X-Content-Type-Options: nosniff
+1 < X-Jenkins: 2.190.2
+1 < X-Jenkins-Session: 464689ef
+{
+  "_class" : "hudson.model.Hudson",
+  "assignedLabels" : [
+    {
+      "name" : "master"
+    }
+  ],
+  "mode" : "NORMAL",
+  "nodeDescription" : "the master Jenkins node",
+  "nodeName" : "",
+  "numExecutors" : 2,
+  "description" : null,
+  "jobs" : [
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject",
+      "name" : "TestPrd1",
+      "url" : "http://localhost:8080/job/TestPrd1/"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "TestPrdNov",
+      "url" : "http://localhost:8080/job/TestPrdNov/",
+      "color" : "notbuilt"
+    }
+  ],
+  "overallLoad" : {
+    
+  },
+  "primaryView" : {
+    "_class" : "hudson.model.AllView",
+    "name" : "all",
+    "url" : "http://localhost:8080/"
+  },
+  "quietingDown" : false,
+  "slaveAgentPort" : -1,
+  "unlabeledLoad" : {
+    "_class" : "jenkins.model.UnlabeledLoadStatistics"
+  },
+  "useCrumbs" : true,
+  "useSecurity" : true,
+  "views" : [
+    {
+      "_class" : "hudson.model.AllView",
+      "name" : "all",
+      "url" : "http://localhost:8080/"
+    }
+  ]
+}
+
+15:46:51.319 [main] INFO  com.intuit.karate.junit4.Karate - Karate version: 0.8.0
+15:46:52.213 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:46:52.592 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/api/json?pretty=true
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Basic dW5hbWU6cm9vdA==
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_242)
+
+15:46:52.622 [main] DEBUG com.intuit.karate - response time in milliseconds: 30
+1 < 401
+1 < Cache-Control: must-revalidate,no-cache,no-store
+1 < Content-Length: 0
+1 < Date: Fri, 31 Jan 2020 10:16:52 GMT
+1 < Server: Jetty(9.4.z-SNAPSHOT)
+1 < WWW-Authenticate: Basic realm="Jenkins"
+1 < X-Content-Type-Options: nosniff
+
+15:46:52.624 [main] ERROR com.intuit.karate - status code was: 401, expected: 200, response time: 30, url: http://localhost:8080/api/json?pretty=true, response: 
+15:47:19.774 [main] INFO  com.intuit.karate.junit4.Karate - Karate version: 0.8.0
+15:47:20.685 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:47:21.118 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/api/json?pretty=true
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Basic dW5hbWU6cGFzcw==
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_242)
+
+15:47:21.152 [main] DEBUG com.intuit.karate - response time in milliseconds: 34
+1 < 401
+1 < Cache-Control: must-revalidate,no-cache,no-store
+1 < Content-Length: 0
+1 < Date: Fri, 31 Jan 2020 10:17:21 GMT
+1 < Server: Jetty(9.4.z-SNAPSHOT)
+1 < WWW-Authenticate: Basic realm="Jenkins"
+1 < X-Content-Type-Options: nosniff
+
+15:47:21.155 [main] ERROR com.intuit.karate - status code was: 401, expected: 200, response time: 34, url: http://localhost:8080/api/json?pretty=true, response: 
+15:48:55.718 [main] INFO  com.intuit.karate.junit4.Karate - Karate version: 0.8.0
+15:48:56.665 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:48:57.076 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/api/json?pretty=true
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Basic dW5hbWU6cm9vdA==
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_242)
+
+15:48:57.114 [main] DEBUG com.intuit.karate - response time in milliseconds: 38
+1 < 401
+1 < Cache-Control: must-revalidate,no-cache,no-store
+1 < Content-Length: 0
+1 < Date: Fri, 31 Jan 2020 10:18:57 GMT
+1 < Server: Jetty(9.4.z-SNAPSHOT)
+1 < WWW-Authenticate: Basic realm="Jenkins"
+1 < X-Content-Type-Options: nosniff
+
+15:48:57.116 [main] ERROR com.intuit.karate - status code was: 401, expected: 200, response time: 38, url: http://localhost:8080/api/json?pretty=true, response: 
+15:50:16.258 [main] INFO  com.intuit.karate.junit4.Karate - Karate version: 0.8.0
+15:50:17.247 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:50:17.645 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/api/json?pretty=true
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Basic cm9vdDpyb290
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_242)
+
+15:50:17.761 [main] DEBUG com.intuit.karate - response time in milliseconds: 114
+1 < 200
+1 < Content-Type: application/json;charset=utf-8
+1 < Date: Fri, 31 Jan 2020 10:20:17 GMT
+1 < Server: Jetty(9.4.z-SNAPSHOT)
+1 < X-Content-Type-Options: nosniff
+1 < X-Jenkins: 2.190.2
+1 < X-Jenkins-Session: 464689ef
+{
+  "_class" : "hudson.model.Hudson",
+  "assignedLabels" : [
+    {
+      "name" : "master"
+    }
+  ],
+  "mode" : "NORMAL",
+  "nodeDescription" : "the master Jenkins node",
+  "nodeName" : "",
+  "numExecutors" : 2,
+  "description" : null,
+  "jobs" : [
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject",
+      "name" : "TestPrd1",
+      "url" : "http://localhost:8080/job/TestPrd1/"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "TestPrdNov",
+      "url" : "http://localhost:8080/job/TestPrdNov/",
+      "color" : "notbuilt"
+    }
+  ],
+  "overallLoad" : {
+    
+  },
+  "primaryView" : {
+    "_class" : "hudson.model.AllView",
+    "name" : "all",
+    "url" : "http://localhost:8080/"
+  },
+  "quietingDown" : false,
+  "slaveAgentPort" : -1,
+  "unlabeledLoad" : {
+    "_class" : "jenkins.model.UnlabeledLoadStatistics"
+  },
+  "useCrumbs" : true,
+  "useSecurity" : true,
+  "views" : [
+    {
+      "_class" : "hudson.model.AllView",
+      "name" : "all",
+      "url" : "http://localhost:8080/"
+    }
+  ]
+}
+
+15:53:06.595 [main] INFO  com.intuit.karate.junit4.Karate - Karate version: 0.8.0
+15:53:07.612 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:53:08.066 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/api/json?pretty=true
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Basic cm9vdDpyb290
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_242)
+
+15:53:08.203 [main] DEBUG com.intuit.karate - response time in milliseconds: 128
+1 < 200
+1 < Content-Type: application/json;charset=utf-8
+1 < Date: Fri, 31 Jan 2020 10:23:08 GMT
+1 < Server: Jetty(9.4.z-SNAPSHOT)
+1 < X-Content-Type-Options: nosniff
+1 < X-Jenkins: 2.190.2
+1 < X-Jenkins-Session: 464689ef
+{
+  "_class" : "hudson.model.Hudson",
+  "assignedLabels" : [
+    {
+      "name" : "master"
+    }
+  ],
+  "mode" : "NORMAL",
+  "nodeDescription" : "the master Jenkins node",
+  "nodeName" : "",
+  "numExecutors" : 2,
+  "description" : null,
+  "jobs" : [
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject",
+      "name" : "TestPrd1",
+      "url" : "http://localhost:8080/job/TestPrd1/"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "TestPrdNov",
+      "url" : "http://localhost:8080/job/TestPrdNov/",
+      "color" : "notbuilt"
+    }
+  ],
+  "overallLoad" : {
+    
+  },
+  "primaryView" : {
+    "_class" : "hudson.model.AllView",
+    "name" : "all",
+    "url" : "http://localhost:8080/"
+  },
+  "quietingDown" : false,
+  "slaveAgentPort" : -1,
+  "unlabeledLoad" : {
+    "_class" : "jenkins.model.UnlabeledLoadStatistics"
+  },
+  "useCrumbs" : true,
+  "useSecurity" : true,
+  "views" : [
+    {
+      "_class" : "hudson.model.AllView",
+      "name" : "all",
+      "url" : "http://localhost:8080/"
+    }
+  ]
+}
+
+16:04:26.604 [main] INFO  com.intuit.karate.junit4.Karate - Karate version: 0.8.0
+16:04:27.669 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:05:04.374 [main] INFO  com.intuit.karate.junit4.Karate - Karate version: 0.8.0
+16:05:05.190 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:07:27.526 [main] INFO  com.intuit.karate.junit4.Karate - Karate version: 0.8.0
+16:07:28.442 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:07:28.832 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/api/json?pretty=true
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Basic cm9vdDpyb290
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_242)
+
+16:07:28.944 [main] DEBUG com.intuit.karate - response time in milliseconds: 109
+1 < 200
+1 < Content-Type: application/json;charset=utf-8
+1 < Date: Fri, 31 Jan 2020 10:37:28 GMT
+1 < Server: Jetty(9.4.z-SNAPSHOT)
+1 < X-Content-Type-Options: nosniff
+1 < X-Jenkins: 2.190.2
+1 < X-Jenkins-Session: 464689ef
+{
+  "_class" : "hudson.model.Hudson",
+  "assignedLabels" : [
+    {
+      "name" : "master"
+    }
+  ],
+  "mode" : "NORMAL",
+  "nodeDescription" : "the master Jenkins node",
+  "nodeName" : "",
+  "numExecutors" : 2,
+  "description" : null,
+  "jobs" : [
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject",
+      "name" : "TestPrd1",
+      "url" : "http://localhost:8080/job/TestPrd1/"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "TestPrdNov",
+      "url" : "http://localhost:8080/job/TestPrdNov/",
+      "color" : "notbuilt"
+    }
+  ],
+  "overallLoad" : {
+    
+  },
+  "primaryView" : {
+    "_class" : "hudson.model.AllView",
+    "name" : "all",
+    "url" : "http://localhost:8080/"
+  },
+  "quietingDown" : false,
+  "slaveAgentPort" : -1,
+  "unlabeledLoad" : {
+    "_class" : "jenkins.model.UnlabeledLoadStatistics"
+  },
+  "useCrumbs" : true,
+  "useSecurity" : true,
+  "views" : [
+    {
+      "_class" : "hudson.model.AllView",
+      "name" : "all",
+      "url" : "http://localhost:8080/"
+    }
+  ]
+}
+
+16:32:46.907 [main] INFO  com.intuit.karate.junit4.Karate - Karate version: 0.8.0
+16:32:47.902 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:32:47.910 [main] ERROR com.intuit.karate - syntax error: 'param 'qaclick123'', feature: /home/suryakhanna/eclipse-workspace/Karate/target/test-classes/assignment/location/addloc.feature, line: 25
+16:34:00.568 [main] INFO  com.intuit.karate.junit4.Karate - Karate version: 0.8.0
+16:34:01.372 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:34:01.707 [main] DEBUG com.intuit.karate - request:
+1 > POST http://216.10.245.166/maps/api/place/add/json?key=qaclick123
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 228
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: 216.10.245.166
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_242)
+{"location":{"lat":20.383494,"lng":20.427362},"accuracy":50,"name":"new house","phone_number":"(+91) 983 893 3937","address":"129, hsr layout, cohen 09","types":["shoe park","shop"],"website":"http://google.com","language":"IN"}
+
+16:34:01.865 [main] DEBUG com.intuit.karate - response time in milliseconds: 158
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Max-Age: 3600
+1 < Connection: Keep-Alive
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Fri, 31 Jan 2020 11:04:01 GMT
+1 < Keep-Alive: timeout=5, max=100
+1 < Server: Apache
+1 < Transfer-Encoding: chunked
+{"status":"OK","place_id":"1abc8e5e9c8c88d1555504bb4f347b40","scope":"APP","reference":"0f66509067f1b8399dbd51f62fb9dad40f66509067f1b8399dbd51f62fb9dad4","id":"0f66509067f1b8399dbd51f62fb9dad4"}
+
+16:34:01.870 [main] INFO  com.intuit.karate - [print] Response is:  {
+  "status": "OK",
+  "place_id": "1abc8e5e9c8c88d1555504bb4f347b40",
+  "scope": "APP",
+  "reference": "0f66509067f1b8399dbd51f62fb9dad40f66509067f1b8399dbd51f62fb9dad4",
+  "id": "0f66509067f1b8399dbd51f62fb9dad4"
+}
+
+17:29:19.079 [main] INFO  com.intuit.karate.junit4.Karate - Karate version: 0.8.0
+17:29:19.866 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:29:20.214 [main] DEBUG com.intuit.karate - request:
+1 > POST http://216.10.245.166/maps/api/place/add/json?key=qaclick123
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 228
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: 216.10.245.166
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_242)
+{"location":{"lat":20.383494,"lng":20.427362},"accuracy":50,"name":"new house","phone_number":"(+91) 983 893 3937","address":"129, hsr layout, cohen 09","types":["shoe park","shop"],"website":"http://google.com","language":"IN"}
+
+17:29:20.335 [main] DEBUG com.intuit.karate - response time in milliseconds: 120
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Max-Age: 3600
+1 < Connection: Keep-Alive
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Fri, 31 Jan 2020 11:59:20 GMT
+1 < Keep-Alive: timeout=5, max=100
+1 < Server: Apache
+1 < Transfer-Encoding: chunked
+{"status":"OK","place_id":"f50663732b18625f3e82f39fa0ba5aac","scope":"APP","reference":"3b77f1c50e8fbfb7591a17498ec77a583b77f1c50e8fbfb7591a17498ec77a58","id":"3b77f1c50e8fbfb7591a17498ec77a58"}
+
+17:29:20.341 [main] INFO  com.intuit.karate - [print] Response is:  {
+  "status": "OK",
+  "place_id": "f50663732b18625f3e82f39fa0ba5aac",
+  "scope": "APP",
+  "reference": "3b77f1c50e8fbfb7591a17498ec77a583b77f1c50e8fbfb7591a17498ec77a58",
+  "id": "3b77f1c50e8fbfb7591a17498ec77a58"
+}
+
+17:38:50.870 [main] INFO  com.intuit.karate.junit4.Karate - Karate version: 0.8.0
+17:38:51.725 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:38:52.109 [main] DEBUG com.intuit.karate - request:
+1 > POST http://216.10.245.166/maps/api/place/add/json?key=qaclick123
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 228
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: 216.10.245.166
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_242)
+{"location":{"lat":20.383494,"lng":20.427362},"accuracy":50,"name":"new house","phone_number":"(+91) 983 893 3937","address":"129, hsr layout, cohen 09","types":["shoe park","shop"],"website":"http://google.com","language":"IN"}
+
+17:38:52.212 [main] DEBUG com.intuit.karate - response time in milliseconds: 102
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Max-Age: 3600
+1 < Connection: Keep-Alive
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Fri, 31 Jan 2020 12:08:52 GMT
+1 < Keep-Alive: timeout=5, max=100
+1 < Server: Apache
+1 < Transfer-Encoding: chunked
+{"status":"OK","place_id":"94b5c3260a50b1a0168c4cd750d98389","scope":"APP","reference":"00ec3293a55d97a32056d0660169221500ec3293a55d97a32056d06601692215","id":"00ec3293a55d97a32056d06601692215"}
+
+17:38:52.217 [main] INFO  com.intuit.karate - [print] Response is:  {
+  "status": "OK",
+  "place_id": "94b5c3260a50b1a0168c4cd750d98389",
+  "scope": "APP",
+  "reference": "00ec3293a55d97a32056d0660169221500ec3293a55d97a32056d06601692215",
+  "id": "00ec3293a55d97a32056d06601692215"
+}
+
+17:42:34.747 [main] INFO  com.intuit.karate.junit4.Karate - Karate version: 0.8.0
+17:42:35.672 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:42:36.048 [main] DEBUG com.intuit.karate - request:
+1 > POST http://216.10.245.166/maps/api/place/add/json?key=qaclick123
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 228
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: 216.10.245.166
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_242)
+{"location":{"lat":20.383494,"lng":20.427362},"accuracy":50,"name":"new house","phone_number":"(+91) 983 893 3937","address":"129, hsr layout, cohen 09","types":["shoe park","shop"],"website":"http://google.com","language":"IN"}
+
+17:42:36.170 [main] DEBUG com.intuit.karate - response time in milliseconds: 120
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Max-Age: 3600
+1 < Connection: Keep-Alive
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Fri, 31 Jan 2020 12:12:36 GMT
+1 < Keep-Alive: timeout=5, max=100
+1 < Server: Apache
+1 < Transfer-Encoding: chunked
+{"status":"OK","place_id":"fb89ca4fcced538d5c16bcc58da189d3","scope":"APP","reference":"cba719ac4c783558144927a61ad82414cba719ac4c783558144927a61ad82414","id":"cba719ac4c783558144927a61ad82414"}
+
+17:42:36.174 [main] INFO  com.intuit.karate - [print] Response is:  {
+  "status": "OK",
+  "place_id": "fb89ca4fcced538d5c16bcc58da189d3",
+  "scope": "APP",
+  "reference": "cba719ac4c783558144927a61ad82414cba719ac4c783558144927a61ad82414",
+  "id": "cba719ac4c783558144927a61ad82414"
+}
+
+17:46:36.318 [main] INFO  com.intuit.karate.junit4.Karate - Karate version: 0.8.0
+17:46:37.264 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:46:37.678 [main] DEBUG com.intuit.karate - request:
+1 > POST http://216.10.245.166/maps/api/place/add/json?key=qaclick123
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 228
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: 216.10.245.166
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_242)
+{"location":{"lat":20.383494,"lng":20.427362},"accuracy":50,"name":"new house","phone_number":"(+91) 983 893 3937","address":"129, hsr layout, cohen 09","types":["shoe park","shop"],"website":"http://google.com","language":"IN"}
+
+17:46:37.793 [main] DEBUG com.intuit.karate - response time in milliseconds: 113
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Max-Age: 3600
+1 < Connection: Keep-Alive
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Fri, 31 Jan 2020 12:16:37 GMT
+1 < Keep-Alive: timeout=5, max=100
+1 < Server: Apache
+1 < Transfer-Encoding: chunked
+{"status":"OK","place_id":"84dda9539866e2d98615a3f2648bee93","scope":"APP","reference":"0872d1138ed52effcb8e1356cbc29b850872d1138ed52effcb8e1356cbc29b85","id":"0872d1138ed52effcb8e1356cbc29b85"}
+
+17:46:37.800 [main] INFO  com.intuit.karate - [print] Response is:  {
+  "status": "OK",
+  "place_id": "84dda9539866e2d98615a3f2648bee93",
+  "scope": "APP",
+  "reference": "0872d1138ed52effcb8e1356cbc29b850872d1138ed52effcb8e1356cbc29b85",
+  "id": "0872d1138ed52effcb8e1356cbc29b85"
+}
+
+17:50:04.462 [main] INFO  com.intuit.karate.junit4.Karate - Karate version: 0.8.0
+17:50:05.349 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:50:05.720 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/api/json?pretty=true
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Basic cm9vdDpyb290
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_242)
+
+17:50:05.838 [main] DEBUG com.intuit.karate - response time in milliseconds: 115
+1 < 200
+1 < Content-Type: application/json;charset=utf-8
+1 < Date: Fri, 31 Jan 2020 12:20:05 GMT
+1 < Server: Jetty(9.4.z-SNAPSHOT)
+1 < X-Content-Type-Options: nosniff
+1 < X-Jenkins: 2.190.2
+1 < X-Jenkins-Session: 464689ef
+{
+  "_class" : "hudson.model.Hudson",
+  "assignedLabels" : [
+    {
+      "name" : "master"
+    }
+  ],
+  "mode" : "NORMAL",
+  "nodeDescription" : "the master Jenkins node",
+  "nodeName" : "",
+  "numExecutors" : 2,
+  "description" : null,
+  "jobs" : [
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject",
+      "name" : "TestPrd1",
+      "url" : "http://localhost:8080/job/TestPrd1/"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "TestPrdNov",
+      "url" : "http://localhost:8080/job/TestPrdNov/",
+      "color" : "notbuilt"
+    }
+  ],
+  "overallLoad" : {
+    
+  },
+  "primaryView" : {
+    "_class" : "hudson.model.AllView",
+    "name" : "all",
+    "url" : "http://localhost:8080/"
+  },
+  "quietingDown" : false,
+  "slaveAgentPort" : -1,
+  "unlabeledLoad" : {
+    "_class" : "jenkins.model.UnlabeledLoadStatistics"
+  },
+  "useCrumbs" : true,
+  "useSecurity" : true,
+  "views" : [
+    {
+      "_class" : "hudson.model.AllView",
+      "name" : "all",
+      "url" : "http://localhost:8080/"
+    }
+  ]
+}
+

@@ -1,0 +1,14 @@
+{ 
+	"location":{
+		"lat" : 20.383494,
+		"lng" : 20.427362
+    },
+    "accuracy":50,
+    "name":"new house",
+    "phone_number":"(+91) 983 893 3937",
+    "address" : "129, hsr layout, cohen 09",
+    "types": ["shoe park","shop"],
+    "website" : "http://google.com",
+    "language" : "IN"
+
+}
